@@ -65,7 +65,7 @@ class StarRater extends HTMLElement {
         const style = document.createElement('style')
         style.textContent = `
             .star {
-                font-size: 5rem;
+                font-size: 3rem;
                 color: gray;
                 cursor: pointer;
                 
