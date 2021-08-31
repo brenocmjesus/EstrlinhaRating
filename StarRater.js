@@ -50,7 +50,7 @@ class StarRater extends HTMLElement {
     hightLightRating() {
         this.stars.forEach(star => {
             star.style.color = this.currentRatingValue >= star.getAttribute
-                ('data-value') ? 'yellow' : 'gray'
+                ('data-value') ? 'yellow' : 'lightgray'
         })
     }
 
@@ -65,8 +65,8 @@ class StarRater extends HTMLElement {
         const style = document.createElement('style')
         style.textContent = `
             .star {
-                font-size: 3rem;
-                color: gray;
+                font-size: 4rem;
+                color: lightgray;
                 cursor: pointer;
                 
             }
